@@ -12,7 +12,6 @@ This is a **Simon Says** game built using **HTML**, **CSS**, and **JavaScript**.
 ## 🎯 Features  
 ✅ Flashing buttons that the player needs to replicate  
 ✅ **Sound effects** for button presses and sequence flashes  
-✅ **Countdown timer** for each level (if time runs out, game ends)  
 ✅ **Responsive design** for mobile and desktop devices  
 ✅ **Game over screen** with score display  
 
