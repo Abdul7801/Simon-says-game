@@ -1,0 +1,131 @@
+/* General Body Styling */
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Header Styling */
+h1 {
+    font-family: 'Courier New', monospace;
+    color: #333;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-family: 'Courier New', monospace;
+    color: #555;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Button Styling */
+.boxcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.line-one, .line-two {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(145deg, #ffffff, #e0e0e0);
+}
+
+.yellow {
+    background-color: #f99b45;
+    background: linear-gradient(145deg, #f9a744, #f67e2b);
+}
+
+.red {
+    background-color: #d95980;
+    background: linear-gradient(145deg, #d96f91, #d93f6f);
+}
+
+.purple {
+    background-color: #819ff9;
+    background: linear-gradient(145deg, #8e9fff, #4a6ef7);
+}
+
+.green {
+    background-color: #63aac0;
+    background: linear-gradient(145deg, #5bc7c1, #46b0a1);
+}
+
+/* Flashing and Press Effects */
+.flash {
+    background-color: white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);  /* A glowing effect */
+    transform: scale(1.1);  /* Slightly enlarge the button for the flash */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.userflash {
+    background-color: #00d900;  /* Green background when user presses the button */
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.8);
+    transform: scale(1.1);  /* Slight enlargement */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+/* Button Hover and Active Effects */
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* Game Over Styling */
+.game-over {
+    color: #ff0000;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Background Effects on Game Over */
+body.game-over {
+    background-color: #ff8080;
+    animation: pulse 0.5s ease infinite;
+}
+
+@keyframes pulse {
+    0% { background-color: #ff8080; }
+    50% { background-color: #ff3333; }
+    100% { background-color: #ff8080; }
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+    .btn {
+        height: 150px;
+        width: 150px;
+        font-size: 20px;
+    }
+}
