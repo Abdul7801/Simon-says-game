@@ -36,7 +36,7 @@ This is a **Simon Says** game built using **HTML**, **CSS**, and **JavaScript**.
 2. **Open `index.html`** in a browser to start the game.
 
 ## 📸 Screenshots  
-(Add screenshots of your project here)
+![simonsgame](https://github.com/Abdul7801/Simon-says-game/blob/0cc7867ed8343b902aea272b575a4f99d5f843b6/Simon-says-game.png)
 
 ## 📝 License  
 This project is **free to use** and open-source.
